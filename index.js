@@ -36,6 +36,6 @@ app.delete('/api/songs/:id', (req, res) => {
     const updatedDataSet = repoContext.songs.deleteSong(id);
     return res.send(updatedDataSet);
 });
-app.listen(3000, function () {
-    console.log("Sever started. Listening on port 3000.");
+app.listen(5000, function () {
+    console.log("Sever started. Listening on port 5000.");
 });
